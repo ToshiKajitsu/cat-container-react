@@ -1,0 +1,96 @@
+.catCardMain {
+    width: 320px;
+    height: 480px;
+    margin: 0 auto;
+    padding-left: 51px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background-image: url(./img/Back.png);  
+}
+
+.catCardDefault {
+    background-image: url(./img/Back.png);  
+}
+
+.catCardMain:hover {
+    background-image: url(./img/Backhover.png);
+    .catCardValue {
+        background-color: #2EA8E6;
+    }
+}
+
+.catCardSelected {
+    background-image: url(./img/Backselected.png);
+    .catCardValue {
+        background-color: #D91667;
+    }
+}
+
+.catCurdSubtitle {
+    color: #666;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 21px;
+}
+
+.catCardTitle {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 5px;
+}
+
+.catCardType {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.catCardDescription {
+    color: #666;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    padding-top: 20px;
+}
+
+.catImg {
+    position: absolute;
+    top: 208px;
+    left: 0;
+}
+
+.catCardValue {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #1698D9;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 385px;
+    left: 225px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.catCardWeight {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.catCardMeasure {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 5px;
+}
