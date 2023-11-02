@@ -6,21 +6,35 @@
     position: relative;
     overflow: hidden;
     border-radius: 12px;
+    /* background-image: url(./img/Back.png);   */
+}
+
+.catCard_Default {
+    width: 320px;
+    height: 480px;
+    margin: 0 auto;
+    padding-left: 51px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
     background-image: url(./img/Back.png);  
 }
 
-.catCardDefault {
-    background-image: url(./img/Back.png);  
-}
-
-.catCardMain:hover {
+.catCard_Default:hover {
     background-image: url(./img/Backhover.png);
     .catCardValue {
         background-color: #2EA8E6;
     }
 }
 
-.catCardSelected {
+.catCard_Selected {
+    width: 320px;
+    height: 480px;
+    margin: 0 auto;
+    padding-left: 51px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
     background-image: url(./img/Backselected.png);
     .catCardValue {
         background-color: #D91667;
@@ -93,4 +107,23 @@
     font-weight: 400;
     line-height: 22px;
     padding-top: 5px;
+}
+
+.catCardComment {
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.prodectAvailable_Selected {
+    padding-top: 14px;
+    display: block;
+}
+
+.prodectAvailable_Default {
+    padding-top: 14px;
+    display: none;
 }
