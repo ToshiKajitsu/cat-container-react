@@ -49,6 +49,17 @@
     line-height: normal;
     padding-top: 21px;
 }
+.activePgaragraph {
+    display: block;
+}
+
+.nonePgaragraph {
+    display: none;
+}
+
+.redPgaragraph {
+    color: #D91667;
+}
 
 .catCardTitle {
     font-size: 48px;
@@ -116,14 +127,17 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 14px;
 }
 
-.prodectAvailable_Selected {
-    padding-top: 14px;
+.productAvailable_Selected {
     display: block;
 }
 
-.prodectAvailable_Default {
-    padding-top: 14px;
+.productAvailable_Default {
     display: none;
+}
+
+.productNotAvailable {
+    color: yellow;
 }
