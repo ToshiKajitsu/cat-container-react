@@ -20,7 +20,7 @@ export const CatCard = ({product}) => {
     };
     return (
         <div className='catCard' >
-            <div className={`catCard_${select()}`}  onClick={handleClick} onMouseLeave={handleMouseEvent}>
+            <div className={`${product.isAvailable ? '' : 'notAvailable'} catCard_${select()}`}  onClick={handleClick} onMouseLeave={handleMouseEvent}>
                 <p className={`catCurdSubtitle ${hovered ? 'activePgaragraph' : 'nonePgaragraph'}`}>Сказочное заморское явство</p>
                 <p className={`catCurdSubtitle redPgaragraph ${hovered ? 'nonePgaragraph' : 'activePgaragraph'}`} >Котэ на одобряет?</p>
                 <h2 className='catCardTitle'>Нямушка</h2>

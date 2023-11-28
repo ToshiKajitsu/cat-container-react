@@ -41,6 +41,20 @@
     }
 }
 
+.notAvailable {
+    background-image: url(./img/BackOff.png) !important;
+    color: #B3B3B3;
+    .catCurdSubtitle {
+        color: #B3B3B3;   
+    }
+    .catCardDescription {
+        color: #B3B3B3;
+    }
+    .catCardValue {
+        background-color: #979797 !important;
+    }
+}
+
 .catCurdSubtitle {
     color: #666;
     font-size: 16px;
