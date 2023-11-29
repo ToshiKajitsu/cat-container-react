@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Poppins:wght@400;700&display=swap');
+
+.feedingTheCat {
+    color: #fff;
+    padding: 24px 0;
+    font-size: 36px;
+    line-height: 44px;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    font-weight: 100;
+}

@@ -15,14 +15,14 @@ export const CatCard = ({product}) => {
     };
     const handleClick = () => {
         setSelected((currentValue) => !currentValue);
-        setHovered((currentValue) => currentValue = true);
+        setHovered((currentValue) => currentValue = false);
         
     };
     return (
         <div className='catCard' >
-            <div className={`${product.isAvailable ? '' : 'notAvailable'} catCard_${select()}`}  onClick={handleClick} onMouseLeave={handleMouseEvent}>
-                <p className={`catCurdSubtitle ${hovered ? 'activePgaragraph' : 'nonePgaragraph'}`}>Сказочное заморское явство</p>
-                <p className={`catCurdSubtitle redPgaragraph ${hovered ? 'nonePgaragraph' : 'activePgaragraph'}`} >Котэ на одобряет?</p>
+            <div className={`${product.isAvailable ? '' : 'notAvailable'} catCard_${select()}`}  onClick={handleClick} onMouseOver={handleMouseEvent}>
+                <p className={`catCurdSubtitle ${(hovered && selected) ? 'nonePgaragraph' : 'activePgaragraph'}`}>Сказочное заморское явство</p>
+                <p className={`catCurdSubtitle redPgaragraph ${(hovered && selected) ? 'activePgaragraph' : 'nonePgaragraph'}`} >Котэ на одобряет?</p>
                 <h2 className='catCardTitle'>Нямушка</h2>
                 <h3 className='catCardType'>{product.title}</h3>
                 <div className="catCardDescription">
